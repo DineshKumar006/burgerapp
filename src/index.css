@@ -1,0 +1,15 @@
+body {
+ 
+  font-family: "Open Sans", sans-serif;
+  /* background-color: skyblue; */
+  background-image: url("../src/assets/Images/burger4.jpg");
+  /* background-image: url("../src/assets/Images/thor.jpg"); */
+  /* background-image: url("../src/assets/Images/tech.jpg"); */
+
+
+  /* background-color: burlywood; */
+  background-size: cover;
+  background-position: center;
+  width: 100%; background-repeat:repeat;
+
+}

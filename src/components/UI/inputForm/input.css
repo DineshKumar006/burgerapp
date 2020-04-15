@@ -1,0 +1,47 @@
+.Label{
+    font-weight: bold;
+}
+
+.Input{
+    display: block;
+    margin-top: 3px;
+    border:2px solid green;
+    border-radius: 5px;
+    width: 450px;
+    padding: 10px;
+    margin:4px auto
+}
+
+.Select{
+    display: block;
+    margin-top: 3px;
+    border:2px solid green;
+    border-radius: 5px;
+    width: 450px;
+    padding: 10px;
+    margin:4px aut
+}
+@media (min-width:600px){
+    .contactDetails{
+        width: 500px;
+    }
+}
+
+
+@media (max-width:450px){
+    .Input{
+        width: 150px;
+    }
+}
+
+.Invalid{
+    border: 2px solid red;
+    background-color: rgb(233, 151, 151);
+}
+
+
+.Input2{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}

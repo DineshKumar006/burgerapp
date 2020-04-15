@@ -1,0 +1,65 @@
+
+
+
+.Navitem1{
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    list-style: none;
+    
+
+}
+
+.Navitem1 a{
+    color: rgb(235, 152, 28);
+    text-decoration: none;
+    width: 100%;
+    box-sizing:border-box;
+    display: block;
+
+}
+
+.Navitem1 a:hover,
+.Navitem1 a:active,
+.Navitem1 a.active{
+
+color: blue;
+    
+}
+
+
+@media(min-width:500px){
+    .Navitem1{
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+        list-style: none;
+        
+    
+    }
+    
+    .Navitem1 a{
+        color: blanchedalmond;
+        padding: 16px 10px;
+        height: 100%;
+        border-bottom: 4px solid transparent;
+       
+    
+    }
+    
+    .Navitem1 a:hover,
+    .Navitem1 a:active,
+    .Navitem1 a.active{
+    
+    background-color:green;
+    border-bottom: 4px solid #40A4c8;
+    color: white;
+    border-radius: 8px;
+        
+    }
+    
+
+}

@@ -1,0 +1,19 @@
+.Navitems{
+
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-flow: column;
+    list-style: none;
+    align-items: center;
+    height: 96%;
+  
+
+}
+
+@media(min-width:500px){
+    .Navitems{
+        flex-flow: row;
+    }
+}
+
